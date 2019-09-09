@@ -1,0 +1,27 @@
+.App {
+  display: grid;
+  grid-template-rows: 65px auto;
+  grid-template-columns: 200px 1fr;
+  grid-template-areas:
+    'sidebar-left header'
+    'sidebar-left main';
+  height: auto;
+  min-height: 100vh;
+}
+
+.App .sidebar-left {
+  grid-area: sidebar-left;
+}
+
+.App .sidebar-left .paper {
+  width: 200px;
+}
+
+.App main {
+  grid-area: main;
+  padding: 1em;
+}
+
+.App .header {
+  grid-area: header;
+}

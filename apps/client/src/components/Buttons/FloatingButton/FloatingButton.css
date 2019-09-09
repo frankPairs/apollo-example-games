@@ -1,0 +1,6 @@
+.FloatingButton {
+  bottom: 1rem;
+  position: fixed !important;
+  right: 1rem;
+  z-index: 2;
+}
